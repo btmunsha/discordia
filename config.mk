@@ -1,4 +1,4 @@
 CC=gcc
 AR=ar
-CFLAGS=-O3 -march=native
+CFLAGS=-O3 -std=c99 -march=native
 PREFIX=/home/brandon/local

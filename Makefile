@@ -7,7 +7,7 @@ clean:
 
 install:
 
-test: test.o popen2.o
+test: test.o popen2.o terminal.o
 	${CC} ${CFLAGS} -o test test.o popen2.o
 	./test
 
@@ -16,3 +16,6 @@ test.o: test.c
 
 popen2.o: popen2.c
 	${CC} ${CFLAGS} -c popen2.c
+
+terminal.o: terminal.c
+	${CC} ${CFLAGS} -c terminal.c

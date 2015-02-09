@@ -1,7 +1,7 @@
 #ifndef __POPEN2_H__
 #define __POPEN2_H__
 
-#include <unistd.h>
+#include <sys/types.h>
 
 #define READ 0
 #define WRITE 1
